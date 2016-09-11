@@ -1,6 +1,6 @@
 Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
-oPlayer.URL = "nv1.wav"
+oPlayer.URL = "https://copyholder123.github.io/nv1.wav"
 Do While True
     oPlayer.controls.play 
     While oPlayer.playState <> 1 ' 1 = Stopped
